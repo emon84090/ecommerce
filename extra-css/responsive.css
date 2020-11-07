@@ -1,0 +1,63 @@
+
+/* discount-text
+discount-img
+close-btn */
+
+
+@media(max-width:768px){
+
+.discount-img{
+     width:90%;
+}
+
+.close-btn{
+     top: 50px;
+}
+
+
+}
+
+@media(max-width:567px){
+
+     .close-btn{
+          right: 30px;
+     }
+
+}
+
+@media(max-width:535px){
+.discount-text h1{
+
+     font-size: 36px;
+}
+
+}
+
+@media(max-width:400px){
+     .discount-img{
+          display: none;
+     }
+     .discount-text h1{
+
+          font-size: 25px;
+     }
+
+     .close-btn{
+          top: 15px;
+     }
+     
+     }
+
+     @media (max-width:768px){
+       
+          .nav-item{
+               margin-top: 10px;
+          }
+
+          .navbar{
+               text-align: center;
+          }
+
+
+
+     }
